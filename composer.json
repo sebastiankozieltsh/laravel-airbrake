@@ -2,10 +2,16 @@
     "name": "kouz/laravel-airbrake",
     "description": "Laravel service provider for Airbrake https://github.com/airbrake/phpbrake",
     "keywords": ["airbrake", "laravel"],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:sebastiankozieltsh/phpbrake.git"
+        }
+    ],
     "require": {
-        "php": ">=5.4",
-        "airbrake/phpbrake": "^0.7.3",
-        "illuminate/support": "^5.0|^6.0|^7.0"
+        "php": "^7.2.5",
+        "airbrake/phpbrake": "^1.0.0",
+        "illuminate/support": "^5.0|^6.0|^7.0|^8.0"
     },
     "license": "MIT",
     "authors": [
